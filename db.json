@@ -1,14 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+        "customerTaxNumber": "ESA00000026",
+        "socialReason": "GRANDA, S.A",
+        "idOperation": "8ab22a38-1c45-4210-85ac-c0ef7c72e002",
+        "operationFinancingDate": "2020-05-14T20:30:25+0200",
+        "invoices": [
+                {
+                        "invoiceNumber": "VLCC20200009",
+                        "invoiceDate": "2020-04-22",
+                        "invoiceDueDate": "2020-05-22",
+                        "debtorTaxNumber": "ESS4611001A",
+                        "debtorName": "Test Debtor",
+                        "invoiceTotalAmount": "3630",
+                        "invoiceTaxAmount": "321",
+                        "numRegistroAAPPDeudor": "2020120100001",
+                        "numFacturaAAPP": "001",
+                        "numSerieAAPP": "BFF",
+                        "fechaRegistroAAPP": "2020-03-20T15:30:25+0100",
+                        "oficinaContableAAPP": "GE0006297",
+                        "organoGestorAAPP": "A10017556",
+                        "unidadTramitadorAAPP": "GE0003268",
+                        "estadoAAPP": "CONTA",
+                        "comentarioEstadoAAPP": "Estado APP"
+                }
+        ]
 }
